@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt 
 
 # Import data file, create features and targets
-df = pd.read_csv("C:\Mine\Trainings\Machine Learning &bData Science\ZTM\ML Data science\Python\Projects\Heart Disease\heart-disease.csv")
+df = pd.read_csv("heart-disease.csv")
 y = df['target']
 X = df.drop(['target'], axis = 1)
 
